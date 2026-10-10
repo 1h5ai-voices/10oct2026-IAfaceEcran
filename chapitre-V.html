@@ -62,6 +62,13 @@
     h3 { break-after: avoid; page-break-after: avoid; }
     caption { break-after: avoid; }
   }
+  nav.doc { margin-top: 3rem; padding-top: 1.2rem; border-top: 2px solid #b8892e;
+    display: flex; justify-content: space-between; gap: 0.8rem; flex-wrap: wrap;
+    font-family: Georgia, "Palatino Linotype", Palatino, serif; font-size: 0.95rem; }
+  nav.doc a { color: #23498c; text-decoration: none; }
+  nav.doc a:hover { text-decoration: underline; }
+  nav.doc .centre { text-align: center; flex: 1 1 100%; order: -1; margin-bottom: 0.4rem; }
+  @media print { nav.doc { display: none; } }
 </style>
 </head>
 <body>
@@ -109,6 +116,12 @@
 
 <p class="final">Le multi-agents n'est pas une économie : c'est une dépense supplémentaire, qui se justifie quand la tâche en vaut la peine. Reste à savoir qui bénéficiera réellement de cette productivité.</p>
 
+
+<nav class="doc">
+  <a class="centre" href="index.html">Retour au synoptique du document</a>
+  <a href="chapitre-IV.html">&larr; Chapitre IV</a>
+  <a href="chapitre-VI.html">Chapitre VI &rarr;</a>
+</nav>
 </main>
 </body>
 </html>
